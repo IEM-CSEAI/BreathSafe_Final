@@ -1,0 +1,65 @@
+/* Space-separated RGB channels so Tailwind opacity (bg-accent/20) works */
+:root {
+  --bg: 248 250 252;        /* slate-50 */
+  --surface: 255 255 255;   /* white cards */
+  --border: 226 232 240;    /* slate-200 */
+  --text: 15 23 42;         /* slate-900 */
+  --muted: 100 116 139;     /* slate-500 */
+  --accent: 37 99 235;      /* blue-600 */
+  --ok: 4 120 87;           /* emerald-700 */
+  --info: 2 132 199;        /* sky-600 */
+  --warn: 180 83 9;         /* amber-700 */
+  --danger: 190 18 60;      /* rose-700 */
+
+  /* chart palette: blue variations (light theme) */
+  --chart-1: 29 78 216;
+  --chart-2: 14 116 144;
+  --chart-3: 59 130 246;
+  --chart-4: 30 58 138;
+  --chart-5: 2 132 199;
+  --chart-6: 99 102 241;
+  --chart-7: 14 165 233;
+  --chart-8: 37 99 235;
+
+  /* gauge track */
+  --gauge-from: 219 234 254;
+  --gauge-to: 147 197 253;
+
+  /* navbar: solid medium blue, white text */
+  --nav-bg: 37 99 235;
+  --nav-fg: 255 255 255;
+  --nav-muted: 226 238 255;
+  --nav-border: 29 78 216;
+  --nav-accent: 255 255 255;
+  --nav-dot: 191 219 254;
+  --nav-ok: 74 222 128;
+  --nav-warn: 251 191 36;
+  --nav-danger: 252 165 165;
+}
+
+.dark {
+  --bg: 11 15 25;           /* #0b0f19 */
+  --surface: 17 24 39;      /* #111827 */
+  --border: 30 41 59;       /* slate-800 */
+  --text: 230 237 243;
+  --muted: 148 163 184;     /* slate-400 */
+  --accent: 0 230 118;
+  --ok: 0 230 118;
+  --info: 88 166 255;
+  --warn: 255 170 0;
+  --danger: 255 59 59;
+
+  --gauge-from: 30 41 59;
+  --gauge-to: 30 41 59;
+
+  /* navbar: deep charcoal, emerald active pill */
+  --nav-bg: 11 15 25;
+  --nav-fg: 230 237 243;
+  --nav-muted: 148 163 184;
+  --nav-border: 30 41 59;
+  --nav-accent: 52 211 153;
+  --nav-dot: 0 230 118;
+  --nav-ok: 0 230 118;
+  --nav-warn: 255 170 0;
+  --nav-danger: 255 59 59;
+}
