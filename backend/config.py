@@ -54,4 +54,8 @@ STALE_AFTER_SECONDS = 120   # set to a few times your sensor's write interval
 CORS_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "http://localhost:5174",      # BreathSafe TV
+    "http://127.0.0.1:5174",
 ]
+# TV opened from another device? add its address in .env, e.g. CORS_EXTRA=http://192.168.1.20:5174
+CORS_ORIGINS += [o.strip() for o in os.environ.get("CORS_EXTRA", "").split(",") if o.strip()]

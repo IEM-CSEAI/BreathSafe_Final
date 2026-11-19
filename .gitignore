@@ -20,3 +20,16 @@ backend/data/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Node / Vite builds (the TV app has one too)
+dist/
+.vite/
+npm-debug.log*
+
+# secret key files (only if your backend uses one)
+serviceAccountKey.json
+firebase-adminsdk*.json
+
+# tests / caches
+.pytest_cache/
+.idea/
